@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+  background: #f2f2f2;
+  padding: 30px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.buttons .btn {
+  border-radius: 20px;
+  padding: 7px 20px;
+  border: none;
+}
+.buttons .btn.btn-01 {
+  background-color: orange;
+}
+.buttons .btn.btn-02 {
+  background-color: rgb(25, 179, 71);
+}
+.buttons .btn.btn-03 {
+  background-color: rgb(167, 11, 11);
+}
+.contentBox {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  background: #fff;
+  max-width: 60rem;
+  padding: 5rem;
+  margin-top: -1.2rem;
+}
+
+.content-01,
+.content-02,
+.content-03 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 2rem;
+}
+.content h3 {
+  margin-top: 0;
+}
+.content .icon {
+  background-color: #38ed6e;
+  padding: 12px;
+  border-radius: 50%;
+}
+.content .text {
+  font-size: 1.6rem;
+}
+.content .icon img {
+  width: 24px;
+}
+.operationTab--active {
+  transform: translateY(-5px);
+  transition: transform 500ms linear;
+}
+.opertion-content {
+  display: none;
+}
