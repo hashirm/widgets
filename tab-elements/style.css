@@ -72,6 +72,9 @@ body {
   transform: translateY(-5px);
   transition: transform 500ms linear;
 }
-.opertion-content {
+.operation-content {
   display: none;
+}
+.operation-content--active {
+  display: flex;
 }
