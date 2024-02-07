@@ -78,3 +78,11 @@ body {
 .operation-content--active {
   display: flex;
 }
+@media (max-width: 480px) {
+  .buttons {
+    column-gap: 0;
+  }
+  .buttons .btn {
+    border-radius: 0;
+  }
+}
