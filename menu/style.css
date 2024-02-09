@@ -48,11 +48,15 @@ nav .mobile-img-icon {
 nav {
   padding: 0 15px;
 }
+.nav-height {
+  height: 179px !important;
+}
 @media (max-width: 768px) {
   nav {
     height: 67px;
     overflow: hidden;
     align-items: flex-start;
+    transition: all 500ms;
   }
   nav ul {
     display: flex;

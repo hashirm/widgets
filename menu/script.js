@@ -1,6 +1,6 @@
 const mobileIcon = document.querySelector("nav .mobile-img-icon");
 const navbar = document.querySelector(".navbar nav");
-mobileIcon.addEventListener("ontoggle", (e) => {
+mobileIcon.addEventListener("click", (e) => {
   e.preventDefault();
-  navbar.style.height = "179px";
+  navbar.classList.toggle("nav-height");
 });
