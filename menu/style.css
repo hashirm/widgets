@@ -52,16 +52,18 @@ nav {
   nav {
     height: 67px;
     overflow: hidden;
+    align-items: flex-start;
   }
   nav ul {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
     row-gap: 23px;
-    margin-top: 144px;
+    margin-top: 28px;
   }
   nav .mobile-img-icon {
     display: block;
+    margin-top: 28px;
   }
   nav .mobile-img-icon img {
     width: 30px;
