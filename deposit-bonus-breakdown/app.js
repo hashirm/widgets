@@ -1,1 +1,3 @@
-$(document).ready(function () {});
+$(document).ready(function () {
+  $(".dropshadowBox").on("click", function (e) {});
+});
